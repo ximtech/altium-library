@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS "Encoders" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "d891b8ef-7f80-42c4-a1ce-0bae1ec1fbd6" ON "Encoders"("Mounting Type");
+CREATE INDEX "e9ab4c7d-d8ea-4b80-901b-ee2cc675cf8d" ON "Encoders"("Mounting Type");
 
 INSERT INTO "Encoders" (
   "Actuator Type",

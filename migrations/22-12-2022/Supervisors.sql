@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS "Supervisors" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "48728f01-86f9-4a73-bd48-9d71f733bf4a" ON "Supervisors"("Mounting Type");
+CREATE INDEX "427dd14a-9604-469d-9d0b-e74dd85632d4" ON "Supervisors"("Mounting Type");
 
 INSERT INTO "Supervisors" (
   "Comment",

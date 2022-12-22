@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS "Memory" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "85f8a793-a868-4162-9a86-58435a8983a2" ON "Memory"("Mounting Type");
+CREATE INDEX "10011ca3-0f1a-4528-8c25-521018391f64" ON "Memory"("Mounting Type");
 
 INSERT INTO "Memory" (
   "Access Time",
