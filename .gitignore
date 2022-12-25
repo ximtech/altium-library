@@ -1,0 +1,17 @@
+History/*
+*.udl
+Footprints/History/*
+Symbols/History/*
+DB/altium_library/bin/*
+DB/altium_library/obj/*
+DB/altium_library/.vs/*
+DB/*.accdb
+*.user
+Management/*
+STEP/*.sldprt
+STEP/*/*.sldprt
+*-Copy.dblib
+*.Zip
+*_loc
+altiumlibrary.com.DbLib
+*.idea
