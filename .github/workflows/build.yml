@@ -21,7 +21,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Pull docker image
-        run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/altium-migrator:latest
+      run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/altium-migrator:latest
 
     - name: Run docker container
       run: >
