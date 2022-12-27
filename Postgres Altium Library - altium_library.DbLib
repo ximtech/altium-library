@@ -19,13 +19,16 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=ALTIUM
-LastFocusedTable=VoltageRegulators-Linear
+LastFocusedTable=Amplifiers-Audio
 [Table1]
 SchemaName=
 TableName=Amplifiers-Audio
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=200|Part Number0=95|Library Ref0=131|Footprint Ref0=175|Library Path0=325|Footprint Path0=466|id0=33|ComponentLink2URL0=527|Output Type0=103|Device Package0=131|Supplier Device Package0=147|Package / Case0=131|Supplier Part Number 10=142|Lifecycle Status0=100|Voltage - Supply0=108|Manufacturer0=104|Features0=397|LastUpdated0=133|Minimum Order0=104|PartId0=53|Comment0=80|Operating Temperature0=144|ComponentLink1URL0=930|Max Output Power x Channels @ Load0=221|ComponentLink1Description0=170|Supplier 10=75|Mounting Type0=102|Series0=53|Type0=47|Price0=47|Packaging0=76|Part Status0=78|ComponentLink2Description0=170
 [Table2]
 SchemaName=
 TableName=Amplifiers-OP-AmpsAndBufferAmps
@@ -68,9 +71,6 @@ TableName=BatteryManagement
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Description0=187|Part Number0=98|ComponentLink2URL0=518|Device Package0=127|Supplier Device Package0=147|Function0=88|Package / Case0=127|Library Ref0=110|Supplier Part Number 10=142|Lifecycle Status0=100|Battery Chemistry0=111|Manufacturer0=100|LastUpdated0=133|Minimum Order0=104|Comment0=80|Operating Temperature0=144|ComponentLink1URL0=697|Footprint Ref0=92|Number of Cells0=105|ComponentLink1Description0=170|Supplier 10=75|Mounting Type0=102|Series0=103|Price0=47|Library Path0=466|Packaging0=76|Part Status0=78|ComponentLink2Description0=170|Footprint Path0=376|Interface0=68
 [Table9]
 SchemaName=
 TableName=Capacitors-Aluminum-Electrolytic-SMT
@@ -167,6 +167,9 @@ TableName=Capacitors-Tantalum
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=144|Library Ref0=127|Footprint Ref0=107|Library Path0=343|Footprint Path0=475|id0=33|Manufacturer Size Code0=146|componentlink2url0=607|Height - Seated (Max)0=133|Device Package0=101|description0=208|Voltage - Rated0=103|manufacturer0=118|Ratings0=62|Package / Case0=130|Supplier Part Number 10=179|Lifecycle Status0=100|price0=48|Failure Rate0=84|Features0=228|Minimum Order0=104|value0=50|Operating Temperature0=144|componentlink1description0=165|partid0=54|componentlink1url0=724|Tolerance0=73|packaging0=77|Supplier 10=75|Mounting Type0=102|Size / Dimension0=207|ESR (Equivalent Series Resistance)0=195|Lifetime @ Temp.0=111|Type0=102|componentlink2description0=165|series0=180|Part Status0=78|Capacitance0=85|lastupdated0=133|comment0=80
 [Table25]
 SchemaName=
 TableName=Capacitors-Tantalum-Polymer
@@ -329,9 +332,6 @@ TableName=Diodes-TVS
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Current - Peak Pulse (10/1000µs)0=187|Description0=214|Part Number0=149|ComponentLink2URL0=740|Device Package0=143|Voltage - Breakdown (Min)0=160|Power - Peak Pulse0=119|Supplier Device Package0=147|Package / Case0=143|Library Ref0=112|Voltage - Clamping (Max) @ Ipp0=186|Supplier Part Number 10=209|Lifecycle Status0=100|Voltage - Reverse Standoff (Typ)0=187|Unidirectional Channels0=147|Manufacturer0=254|LastUpdated0=133|Minimum Order0=104|PartId0=53|Power Line Protection0=135|Bidirectional Channels0=138|Comment0=80|Operating Temperature0=144|Applications0=178|ComponentLink1URL0=953|Capacitance @ Frequency0=155|Footprint Ref0=118|ComponentLink1Description0=170|Supplier 10=75|Mounting Type0=102|Series0=235|Type0=115|Price0=47|Library Path0=365|Packaging0=76|Part Status0=97|ComponentLink2Description0=170|Footprint Path0=424
 [Table52]
 SchemaName=
 TableName=Diodes-Zener-Single
@@ -404,9 +404,6 @@ TableName=Interface-CODECs
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|ComponentLink4URL0=131|Dynamic Range, ADCs / DACs (db) Typ0=216|Data Interface0=95|Device Package0=101|Voltage - Supply, Analog0=151|ComponentLink5Description0=170|S/N Ratio, ADCs / DACs (db) Typ0=185|Package / Case0=99|Supplier 60=75|Library Ref0=77|Lifecycle Status0=100|Supplier 40=75|Supplier 50=75|Manufacturer0=93|LastUpdated0=88|Minimum Order0=104|PartId0=53|ComponentLink4Description0=170|ComponentLink3URL0=131|Operating Temperature0=144|Footprint Ref0=92|ComponentLink1Description0=170|Mounting Type0=102|Price0=47|Packaging0=76|Value0=52|ComponentLink2Description0=170|Footprint Path0=98|ComponentLink6URL0=131|Description0=82|Part Number0=87|ComponentLink2URL0=131|Number of ADCs / DACs0=145|ComponentLink3Description0=170|Sigma Delta0=84|Supplier Device Package0=147|Supplier Part Number 40=142|Supplier Part Number 50=142|Supplier Part Number 20=142|Supplier Part Number 30=142|Supplier Part Number 10=142|Resolution (Bits)0=106|Supplier Part Number 60=142|Comment0=72|Voltage - Supply, Digital0=148|ComponentLink5URL0=131|ComponentLink1URL0=131|Supplier 20=75|Supplier 30=75|Footprint Ref 20=101|Footprint Ref 30=101|Supplier 10=75|Series0=53|Type0=47|Library Path0=83|Part Status0=78|Footprint Path 20=107|ComponentLink6Description0=170|Footprint Path 30=107
 [Table64]
 SchemaName=
 TableName=Interface-Controllers
@@ -683,9 +680,6 @@ TableName=Resistors-SurfaceMount-0805
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Description0=169|Part Number0=101|ComponentLink2URL0=547|Height - Seated (Max)0=133|Device Package0=101|Temperature Coefficient0=147|Supplier Device Package0=147|Ratings0=62|Package / Case0=100|Library Ref0=77|Supplier Part Number 10=142|Lifecycle Status0=100|Manufacturer0=182|Number of Terminations0=148|Failure Rate0=84|Features0=198|LastUpdated0=133|Minimum Order0=104|PartId0=53|Comment0=72|Operating Temperature0=144|Composition0=89|ComponentLink1URL0=431|Footprint Ref0=92|ComponentLink1Description0=170|Tolerance0=73|Supplier 10=75|Size / Dimension0=201|Resistance0=77|Power (Watts)0=94|Series0=53|Price0=47|Library Path0=274|Packaging0=76|Part Status0=78|Value0=66|ComponentLink2Description0=170|Footprint Path0=377
 [Table110]
 SchemaName=
 TableName=Resistors-SurfaceMount-1206
@@ -704,6 +698,9 @@ TableName=Resistors-SurfaceMount-2512
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=205|Part Number0=132|Library Ref0=77|Footprint Ref0=92|Library Path0=274|Footprint Path0=377|id0=33|ComponentLink2URL0=723|Height - Seated (Max)0=133|Device Package0=101|Temperature Coefficient0=147|Supplier Device Package0=147|Ratings0=62|Package / Case0=100|Supplier Part Number 10=184|Lifecycle Status0=100|Manufacturer0=297|Number of Terminations0=148|Features0=469|LastUpdated0=133|Minimum Order0=104|Comment0=72|Operating Temperature0=144|Composition0=89|ComponentLink1URL0=814|ComponentLink1Description0=170|Tolerance0=73|Supplier 10=75|Size / Dimension0=201|Resistance0=77|Power (Watts)0=94|Series0=98|Price0=47|Packaging0=76|Part Status0=78|Value0=71|ComponentLink2Description0=170
 [Table113]
 SchemaName=
 TableName=Resistors-TrimmerPotentiometers
@@ -860,9 +857,6 @@ TableName=VoltageRegulators-DC-DC-SwitchingControllers
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Description0=220|Part Number0=118|ComponentLink2URL0=546|Output Type0=92|Device Package0=209|Output Configuration0=137|Supplier Device Package0=147|Function0=176|Package / Case0=209|Library Ref0=116|Frequency - Switching0=137|Supplier Part Number 10=142|Lifecycle Status0=100|Manufacturer0=107|LastUpdated0=133|Minimum Order0=104|Voltage - Supply (Vcc/Vdd)0=159|Comment0=80|Operating Temperature0=144|Synchronous Rectifier0=135|ComponentLink1URL0=672|Footprint Ref0=134|ComponentLink1Description0=170|Supplier 10=75|Topology0=95|Clock Sync0=77|Number of Outputs0=124|Control Features0=233|Duty Cycle (Max)0=106|Series0=123|Output Phases0=99|Price0=47|Library Path0=472|Packaging0=76|Part Status0=78|ComponentLink2Description0=170|Footprint Path0=425
 [Table139]
 SchemaName=
 TableName=VoltageRegulators-DC-DC-SwitchingRegulators
@@ -875,9 +869,24 @@ TableName=VoltageRegulators-Linear
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table141]
+SchemaName=
+TableName=databasechangelog
+Enabled=False
+UserWhere=0
+UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Description0=202|Part Number0=134|ComponentLink2URL0=706|Output Type0=88|Voltage - Input (Max)0=131|Current - Output0=110|Device Package0=286|Number of Regulators0=137|Current - Supply (Max)0=137|Output Configuration0=137|Supplier Device Package0=147|Package / Case0=286|Library Ref0=142|Supplier Part Number 10=177|Lifecycle Status0=100|Manufacturer0=184|Voltage - Output (Min/Fixed)0=171|LastUpdated0=133|Minimum Order0=104|Voltage Dropout (Max)0=140|Comment0=80|Operating Temperature0=144|ComponentLink1URL0=960|Current - Quiescent (Iq)0=142|Footprint Ref0=152|PSRR0=167|ComponentLink1Description0=170|Supplier 10=75|Mounting Type0=102|Voltage - Output (Max)0=141|Control Features0=238|Series0=123|Price0=47|Library Path0=487|Protection Features0=421|Packaging0=76|Part Status0=78|ComponentLink2Description0=170|Footprint Path0=456
+BrowserOrder_Visible=id0=33|author0=112|filename0=359|dateexecuted0=101|orderexecuted0=97|exectype0=67|md5sum0=218|description0=81|comments0=75|tag0=40|liquibase0=70|contexts0=66|labels0=53|deployment_id0=99
+[Table142]
+SchemaName=
+TableName=databasechangeloglock
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=id0=33|locked0=57|lockgranted0=85|lockedby0=69
 [FieldMap1]
 Options=FieldName=Amplifiers-Audio.Description|TableNameOnly=Amplifiers-Audio|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
