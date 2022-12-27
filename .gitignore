@@ -11,6 +11,7 @@ Management/*
 STEP/*.sldprt
 STEP/*/*.sldprt
 *-Copy.dblib
+Postgres Altium Library*.DbLib
 *.Zip
 *_loc
 altiumlibrary.com.DbLib
