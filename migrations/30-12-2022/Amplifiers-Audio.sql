@@ -61,9 +61,9 @@ CREATE TABLE IF NOT EXISTS "Amplifiers-Audio" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "5e2150b4-b023-4454-abb6-4497d35e22b0" ON "Amplifiers-Audio"("Value");
+CREATE INDEX "9bd0d925-de3d-4a94-be7c-e3475bceb5ea" ON "Amplifiers-Audio"("Value");
 
-CREATE INDEX "95aa371c-6d37-4669-ae05-9748da03d7e2" ON "Amplifiers-Audio"("Mounting Type");
+CREATE INDEX "9af2c652-e180-455c-8a50-c218893fc053" ON "Amplifiers-Audio"("Mounting Type");
 
 INSERT INTO "Amplifiers-Audio" (
   "Comment",

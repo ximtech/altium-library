@@ -66,9 +66,9 @@ CREATE TABLE IF NOT EXISTS "BatteryChargers" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "2d96d64e-c919-4a00-ae43-357c274b4ad3" ON "BatteryChargers"("Value");
+CREATE INDEX "8715c575-2737-4fb8-9695-b6c722ae0fd9" ON "BatteryChargers"("Value");
 
-CREATE INDEX "4841cd08-8fb8-4cca-8ec6-39d3056edc53" ON "BatteryChargers"("Mounting Type");
+CREATE INDEX "5671f62d-6d90-43ad-80b0-b7463ee067b5" ON "BatteryChargers"("Mounting Type");
 
 INSERT INTO "BatteryChargers" (
   "Battery Chemistry",

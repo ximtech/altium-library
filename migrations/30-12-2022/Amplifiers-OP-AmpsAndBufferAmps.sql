@@ -68,9 +68,9 @@ CREATE TABLE IF NOT EXISTS "Amplifiers-OP-AmpsAndBufferAmps" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "63a35a94-2b4e-4afd-9696-7ce8998c834d" ON "Amplifiers-OP-AmpsAndBufferAmps"("Value");
+CREATE INDEX "76817116-122d-4815-a99b-e2a958e8bea9" ON "Amplifiers-OP-AmpsAndBufferAmps"("Value");
 
-CREATE INDEX "ea4a98b7-4dd1-47ee-ad18-01ace9ca4de9" ON "Amplifiers-OP-AmpsAndBufferAmps"("Mounting Type");
+CREATE INDEX "aae2eb6a-0392-4e3f-84a3-02365c14d8e2" ON "Amplifiers-OP-AmpsAndBufferAmps"("Mounting Type");
 
 INSERT INTO "Amplifiers-OP-AmpsAndBufferAmps" (
   "-3db Bandwidth",

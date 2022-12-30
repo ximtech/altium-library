@@ -63,9 +63,9 @@ CREATE TABLE IF NOT EXISTS "BatteryHoldersClipsContacts" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "a6db9fe0-2dae-43af-8137-4d3529036ee7" ON "BatteryHoldersClipsContacts"("Value");
+CREATE INDEX "fcf3c819-cc86-4424-8e77-3d0fd90dcf58" ON "BatteryHoldersClipsContacts"("Value");
 
-CREATE INDEX "568290dc-7b9d-487e-aa89-f2946d62aa99" ON "BatteryHoldersClipsContacts"("Mounting Type");
+CREATE INDEX "7f8ecadb-4f10-4706-a04d-9090629bb154" ON "BatteryHoldersClipsContacts"("Mounting Type");
 
 INSERT INTO "BatteryHoldersClipsContacts" (
   "Battery Cell Size",

@@ -67,9 +67,9 @@ CREATE TABLE IF NOT EXISTS "Audio-Microphones" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "49ee1a95-b0b3-434e-b415-9def6d272b3c" ON "Audio-Microphones"("Voltage - Rated");
+CREATE INDEX "a574669e-fc90-42cb-acdf-6288c1ef5bdc" ON "Audio-Microphones"("Voltage - Rated");
 
-CREATE INDEX "a2448c75-4b51-4be3-b2cc-df74a4d2fd9e" ON "Audio-Microphones"("Value");
+CREATE INDEX "402192b0-b8cd-4693-8009-ebed8098f40b" ON "Audio-Microphones"("Value");
 
 INSERT INTO "Audio-Microphones" (
   "Comment",

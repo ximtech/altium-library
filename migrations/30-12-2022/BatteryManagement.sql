@@ -61,9 +61,9 @@ CREATE TABLE IF NOT EXISTS "BatteryManagement" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "3912a4ef-fede-4fad-8afe-d23b59c08290" ON "BatteryManagement"("Value");
+CREATE INDEX "966e6842-3b6f-4938-8e15-8b274ec7edd8" ON "BatteryManagement"("Value");
 
-CREATE INDEX "146c9ca9-f5cd-42e2-ae69-0a57e4395036" ON "BatteryManagement"("Mounting Type");
+CREATE INDEX "80824ce9-0911-4587-be25-94bb9a27285c" ON "BatteryManagement"("Mounting Type");
 
 INSERT INTO "BatteryManagement" (
   "Battery Chemistry",

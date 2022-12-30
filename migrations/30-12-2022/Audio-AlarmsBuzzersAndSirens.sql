@@ -72,11 +72,11 @@ CREATE TABLE IF NOT EXISTS "Audio-AlarmsBuzzersAndSirens" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "67c61711-4ac7-4f46-aff5-c35db4ef5470" ON "Audio-AlarmsBuzzersAndSirens"("Voltage - Rated");
+CREATE INDEX "c328a9be-7fff-493d-9d86-7bede86362ef" ON "Audio-AlarmsBuzzersAndSirens"("Voltage - Rated");
 
-CREATE INDEX "44cc501f-233e-456b-8ab3-190ef8dd54fe" ON "Audio-AlarmsBuzzersAndSirens"("Value");
+CREATE INDEX "2c55672e-9313-445f-a6b5-0d9c711c5b22" ON "Audio-AlarmsBuzzersAndSirens"("Value");
 
-CREATE INDEX "6e23d3e0-b2d8-4185-96af-f04548bc6397" ON "Audio-AlarmsBuzzersAndSirens"("Mounting Type");
+CREATE INDEX "37501379-d497-49ae-8516-188ac489c5b0" ON "Audio-AlarmsBuzzersAndSirens"("Mounting Type");
 
 INSERT INTO "Audio-AlarmsBuzzersAndSirens" (
   "Comment",

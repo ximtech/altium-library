@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS "Audio-Speakers" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "e42194a5-8bbd-438a-a2ca-3a4d98888b00" ON "Audio-Speakers"("Value");
+CREATE INDEX "e4f6f49c-15f6-4abd-aa11-392edd77ede6" ON "Audio-Speakers"("Value");
 
 INSERT INTO "Audio-Speakers" (
   "Comment",
