@@ -7,45 +7,6 @@ SET
   "ComponentLink1Description" = 'Datasheet',
   "ComponentLink1URL" = 'https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf',
   "ComponentLink2Description" = 'DigiKey Link',
-  "ComponentLink2URL" = 'http://digikey.com/product-detail/en/maxim-integrated/MAX6070AAUT25-T/MAX6070AAUT25-TCT-ND/5051498',
-  "Current - Output" = '10mA',
-  "Current - Supply" = '300µA',
-  "Description" = 'IC VREF SERIES 0.04% SOT23-6',
-  "Footprint Path" = 'footprints/Leaded - SOT-23/PCB - LEADED - SOT-23 - MAXIM SOT-23-6.PCBLIB',
-  "Footprint Ref" = 'MAXIM SOT-23-6',
-  "LastUpdated" = '2023-01-02T21:04:41.387',
-  "Lifecycle Status" = 'Active',
-  "Manufacturer" = 'Maxim Integrated',
-  "Part Number" = 'MAX6070AAUT25+T',
-  "Minimum Order" = '1',
-  "Mounting Type" = 'Surface Mount',
-  "Noise - 0.1Hz to 10Hz" = '4.8µVp-p',
-  "Noise - 10Hz to 10kHz" = '3µVrms',
-  "Operating Temperature" = '-40°C ~ 125°C (TA)',
-  "Output Type" = 'Fixed',
-  "Package / Case" = 'SOT-23-6',
-  "Packaging" = 'TapeAndReel',
-  "Part Status" = 'Active',
-  "Price" = '1.56',
-  "Reference Type" = 'Series',
-  "Series" = '-',
-  "Supplier 1" = 'DigiKey',
-  "Supplier Part Number 1" = 'MAX6070AAUT25+TCT-ND',
-  "Supplier Device Package" = 'SOT-23-6',
-  "Library Path" = 'symbols/Power - Voltage References/SCH - POWER - VOLTAGE REFERENCES - MAXIM MAX6070.SCHLIB',
-  "Library Ref" = 'MAXIM MAX6070',
-  "Temperature Coefficient" = '6ppm/°C',
-  "Tolerance" = '±0.04%',
-  "Voltage - Input" = '2.8V ~ 5.5V',
-  "Voltage - Output (Min/Fixed)" = '2.5V'
-WHERE (id = 1);
-
-UPDATE "VoltageReference"
-SET
-  "Comment" = '=Part Number',
-  "ComponentLink1Description" = 'Datasheet',
-  "ComponentLink1URL" = 'https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf',
-  "ComponentLink2Description" = 'DigiKey Link',
   "ComponentLink2URL" = 'http://digikey.com/product-detail/en/maxim-integrated/MAX6070AAUT30-T/MAX6070AAUT30-TCT-ND/5051499',
   "Current - Output" = '10mA',
   "Current - Supply" = '300µA',
@@ -1060,45 +1021,6 @@ SET
   "ComponentLink1Description" = 'Datasheet',
   "ComponentLink1URL" = 'https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf',
   "ComponentLink2Description" = 'DigiKey Link',
-  "ComponentLink2URL" = 'http://digikey.com/product-detail/en/maxim-integrated/MAX6071BAUT18-T/MAX6071BAUT18-TCT-ND/5051520',
-  "Current - Output" = '10mA',
-  "Current - Supply" = '260µA',
-  "Description" = 'IC VREF SERIES 0.08% SOT23-6',
-  "Footprint Path" = 'footprints/Leaded - SOT-23/PCB - LEADED - SOT-23 - MAXIM SOT-23-6.PCBLIB',
-  "Footprint Ref" = 'MAXIM SOT-23-6',
-  "LastUpdated" = '2023-01-02T21:04:42.797',
-  "Lifecycle Status" = 'Active',
-  "Manufacturer" = 'Maxim Integrated',
-  "Part Number" = 'MAX6071BAUT18+T',
-  "Minimum Order" = '1',
-  "Mounting Type" = 'Surface Mount',
-  "Noise - 0.1Hz to 10Hz" = '6µVp-p',
-  "Noise - 10Hz to 10kHz" = '7µVrms',
-  "Operating Temperature" = '-40°C ~ 125°C (TA)',
-  "Output Type" = 'Fixed',
-  "Package / Case" = 'SOT-23-6',
-  "Packaging" = 'CutTape',
-  "Part Status" = 'Active',
-  "Price" = '2.04',
-  "Reference Type" = 'Series',
-  "Series" = '-',
-  "Supplier 1" = 'DigiKey',
-  "Supplier Part Number 1" = 'MAX6071BAUT18+TCT-ND',
-  "Supplier Device Package" = 'SOT-23-6',
-  "Library Path" = 'symbols/Power - Voltage References/SCH - POWER - VOLTAGE REFERENCES - MAXIM MAX6071.SCHLIB',
-  "Library Ref" = 'MAXIM MAX6071',
-  "Temperature Coefficient" = '8ppm/°C',
-  "Tolerance" = '±0.08%',
-  "Voltage - Input" = '2.7V ~ 5.5V',
-  "Voltage - Output (Min/Fixed)" = '1.8V'
-WHERE (id = 28);
-
-UPDATE "VoltageReference"
-SET
-  "Comment" = '=Part Number',
-  "ComponentLink1Description" = 'Datasheet',
-  "ComponentLink1URL" = 'https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf',
-  "ComponentLink2Description" = 'DigiKey Link',
   "ComponentLink2URL" = 'http://digikey.com/product-detail/en/maxim-integrated/MAX6071BAUT33-T/MAX6071BAUT33-TCT-ND/5051524',
   "Current - Output" = '10mA',
   "Current - Supply" = '330µA',
@@ -1246,7 +1168,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '4.3V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '4.096V'
-WHERE (id = 32);
+WHERE (id = 8);
 
 UPDATE "VoltageReference"
 SET
@@ -1284,7 +1206,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '5.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '5V'
-WHERE (id = 33);
+WHERE (id = 3);
 
 UPDATE "VoltageReference"
 SET
@@ -1322,7 +1244,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.8V'
-WHERE (id = 34);
+WHERE (id = 5);
 
 UPDATE "VoltageReference"
 SET
@@ -1360,7 +1282,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '3.5V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3.3V'
-WHERE (id = 35);
+WHERE (id = 6);
 
 UPDATE "VoltageReference"
 SET
@@ -1398,7 +1320,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.048V'
-WHERE (id = 36);
+WHERE (id = 4);
 
 UPDATE "VoltageReference"
 SET
@@ -1436,7 +1358,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.25V'
-WHERE (id = 37);
+WHERE (id = 14);
 
 UPDATE "VoltageReference"
 SET
@@ -1474,7 +1396,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '5.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '5V'
-WHERE (id = 38);
+WHERE (id = 13);
 
 UPDATE "VoltageReference"
 SET
@@ -1512,7 +1434,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.048V'
-WHERE (id = 39);
+WHERE (id = 9);
 
 UPDATE "VoltageReference"
 SET
@@ -1550,7 +1472,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '3.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3V'
-WHERE (id = 40);
+WHERE (id = 18);
 
 UPDATE "VoltageReference"
 SET
@@ -1588,7 +1510,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.048V'
-WHERE (id = 41);
+WHERE (id = 20);
 
 UPDATE "VoltageReference"
 SET
@@ -1626,7 +1548,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.25V'
-WHERE (id = 42);
+WHERE (id = 30);
 
 UPDATE "VoltageReference"
 SET
@@ -1664,7 +1586,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '4.3V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '4.096V'
-WHERE (id = 43);
+WHERE (id = 25);
 
 UPDATE "VoltageReference"
 SET
@@ -1702,7 +1624,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '3.5V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3.3V'
-WHERE (id = 44);
+WHERE (id = 29);
 
 UPDATE "VoltageReference"
 SET
@@ -1740,7 +1662,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '5.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '5V'
-WHERE (id = 45);
+WHERE (id = 24);
 
 UPDATE "VoltageReference"
 SET
@@ -1778,7 +1700,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.8V'
-WHERE (id = 46);
+WHERE (id = 15);
 
 UPDATE "VoltageReference"
 SET
@@ -1816,7 +1738,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.048V'
-WHERE (id = 47);
+WHERE (id = 26);
 
 UPDATE "VoltageReference"
 SET
@@ -1854,7 +1776,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.8V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.5V'
-WHERE (id = 48);
+WHERE (id = 16);
 
 UPDATE "VoltageReference"
 SET
@@ -1892,7 +1814,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '5.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '5V'
-WHERE (id = 49);
+WHERE (id = 19);
 
 UPDATE "VoltageReference"
 SET
@@ -1930,7 +1852,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '3.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3V'
-WHERE (id = 50);
+WHERE (id = 2);
 
 UPDATE "VoltageReference"
 SET
@@ -1968,7 +1890,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '4.3V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '4.096V'
-WHERE (id = 51);
+WHERE (id = 10);
 
 UPDATE "VoltageReference"
 SET
@@ -2006,7 +1928,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.8V'
-WHERE (id = 52);
+WHERE (id = 17);
 
 UPDATE "VoltageReference"
 SET
@@ -2044,7 +1966,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '3.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3V'
-WHERE (id = 53);
+WHERE (id = 27);
 
 UPDATE "VoltageReference"
 SET
@@ -2082,7 +2004,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '3.2V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3V'
-WHERE (id = 54);
+WHERE (id = 11);
 
 UPDATE "VoltageReference"
 SET
@@ -2120,7 +2042,7 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '3.5V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3.3V'
-WHERE (id = 55);
+WHERE (id = 12);
 
 UPDATE "VoltageReference"
 SET
@@ -2158,7 +2080,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '3.5V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '3.3V'
-WHERE (id = 56);
+WHERE (id = 23);
 
 UPDATE "VoltageReference"
 SET
@@ -2196,7 +2118,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.25V'
-WHERE (id = 57);
+WHERE (id = 21);
 
 UPDATE "VoltageReference"
 SET
@@ -2234,7 +2156,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.8V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.5V'
-WHERE (id = 58);
+WHERE (id = 22);
 
 UPDATE "VoltageReference"
 SET
@@ -2272,7 +2194,7 @@ SET
   "Tolerance" = '±0.04%',
   "Voltage - Input" = '2.7V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '1.25V'
-WHERE (id = 59);
+WHERE (id = 7);
 
 UPDATE "VoltageReference"
 SET
@@ -2310,5 +2232,5 @@ SET
   "Tolerance" = '±0.08%',
   "Voltage - Input" = '2.8V ~ 5.5V',
   "Voltage - Output (Min/Fixed)" = '2.5V'
-WHERE (id = 60);
+WHERE (id = 31);
 
