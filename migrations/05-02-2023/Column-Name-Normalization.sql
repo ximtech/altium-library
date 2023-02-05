@@ -1,6 +1,7 @@
 --liquibase formatted sql
---changeset Stanislav_Vodolagin:1
+--changeset Stanislav_Vodolagin:2
 
+START TRANSACTION;
 DO
 $$
     DECLARE
@@ -70,3 +71,4 @@ $$
             END LOOP;
     END
 $$ LANGUAGE plpgsql;
+COMMIT;
