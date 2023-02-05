@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset Stanislav_Vodolagin:2
+--changeset Stanislav_Vodolagin:3 splitStatements:false
 
 START TRANSACTION;
 DO
