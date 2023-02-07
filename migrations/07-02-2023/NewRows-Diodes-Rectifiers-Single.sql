@@ -8,7 +8,7 @@ INSERT INTO "Diodes-Rectifiers-Single" (
   "ComponentLink1URL",
   "ComponentLink2Description",
   "ComponentLink2URL",
-  "Current - Average Rectified (Io)",
+  "Current - Average Rectified (io)",
   "Current - Reverse Leakage @ Vr",
   "Description",
   "Diode Type",
@@ -33,8 +33,8 @@ INSERT INTO "Diodes-Rectifiers-Single" (
   "Supplier Device Package",
   "Library Path",
   "Library Ref",
-  "Voltage - DC Reverse (Vr) (Max)",
-  "Voltage - Forward (Vf) (Max) @ If"
+  "Voltage - Dc Reverse (vr) (max)",
+  "Voltage - Forward (vf) (max) @ If"
 )
 VALUES (
   '70pF @ 1V, 1MHz', 

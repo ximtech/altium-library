@@ -13,7 +13,7 @@ INSERT INTO "LED-Indication" (
   "Device Package",
   "Footprint Path",
   "Footprint Ref",
-  "Height (Max)",
+  "Height (max)",
   "LastUpdated",
   "Lens Color",
   "Lens Size",
@@ -38,7 +38,7 @@ INSERT INTO "LED-Indication" (
   "Library Path",
   "Library Ref",
   "Value",
-  "Voltage - Forward (Vf) (Typ)",
+  "Voltage - Forward (vf) (typ)",
   "Wavelength - Dominant"
 )
 VALUES (
