@@ -1,0 +1,73 @@
+--liquibase formatted sql
+--changeset Stanislav_Vodolagin:1
+
+UPDATE "Sensors-Optical-Photodiodes"
+SET
+  "Comment" = '=Part Number',
+  "ComponentLink1Description" = 'Datasheet',
+  "ComponentLink1URL" = '//media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22B_TR8.pdf',
+  "ComponentLink2Description" = 'DigiKey Link',
+  "ComponentLink2URL" = '//digikey.com/product-detail/en/everlight-electronics-co-ltd/PD15-22B-TR8/1080-1366-2-ND/2675857',
+  "Current - Dark (Typ)" = '10nA',
+  "Description" = 'SENSOR PHOTODIODE 940NM 4SMD',
+  "Device Package" = '4-SMD, No Lead',
+  "Diode Type" = 'PIN',
+  "Footprint Path" = 'footprints/Diodes/PCB - DIODES - Everlight PD15-22.PCBLIB',
+  "Footprint Ref" = 'Everlight PD15-22',
+  "LastUpdated" = '2019-12-09T02:27:50.773',
+  "Lifecycle Status" = '0',
+  "Manufacturer" = 'Everlight Electronics Co Ltd',
+  "Part Number" = 'PD15-22B/TR8',
+  "Minimum Order" = '1',
+  "Mounting Type" = 'Surface Mount',
+  "Operating Temperature" = '-40°C ~ 85°C',
+  "Package / Case" = '4-SMD, No Lead',
+  "Packaging" = 'TapeAndReel',
+  "Part Status" = 'Active',
+  "Price" = '0.13',
+  "Response Time" = '10ns',
+  "Series" = '-',
+  "Spectral Range" = '730nm ~ 1100nm',
+  "Supplier 1" = 'DigiKey',
+  "Supplier Part Number 1" = '1080-1366-2-ND',
+  "Library Path" = 'symbols/Diodes/SCH - DIODES - PHOTODIODE.SCHLIB',
+  "Library Ref" = 'PHOTODIODE',
+  "Voltage - DC Reverse (Vr) (Max)" = '32V',
+  "Wavelength" = '940nm'
+WHERE ("Part Number" = 'PD15-22B/TR8');
+
+UPDATE "Sensors-Optical-Photodiodes"
+SET
+  "Comment" = '=Part Number',
+  "ComponentLink1Description" = 'Datasheet',
+  "ComponentLink1URL" = '//media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PD15-22C_TR8.pdf',
+  "ComponentLink2Description" = 'DigiKey Link',
+  "ComponentLink2URL" = '//digikey.com/product-detail/en/everlight-electronics-co-ltd/PD15-22C-TR8/1080-1367-2-ND/2675858',
+  "Current - Dark (Typ)" = '10nA',
+  "Description" = 'SENSOR PHOTODIODE 940NM 4SMD',
+  "Device Package" = '4-SMD, No Lead',
+  "Diode Type" = 'PIN',
+  "Footprint Path" = 'footprints/Diodes/PCB - DIODES - Everlight PD15-22.PCBLIB',
+  "Footprint Ref" = 'Everlight PD15-22',
+  "LastUpdated" = '2019-12-09T02:28:42.950',
+  "Lifecycle Status" = '0',
+  "Manufacturer" = 'Everlight Electronics Co Ltd',
+  "Part Number" = 'PD15-22C/TR8',
+  "Minimum Order" = '1',
+  "Mounting Type" = 'Surface Mount',
+  "Operating Temperature" = '-25°C ~ 85°C',
+  "Package / Case" = '4-SMD, No Lead',
+  "Packaging" = 'TapeAndReel',
+  "Part Status" = 'Active',
+  "Price" = '0.11',
+  "Response Time" = '10ns',
+  "Series" = '-',
+  "Spectral Range" = '400nm ~ 1100nm',
+  "Supplier 1" = 'DigiKey',
+  "Supplier Part Number 1" = '1080-1367-2-ND',
+  "Library Path" = 'symbols/Diodes/SCH - DIODES - PHOTODIODE.SCHLIB',
+  "Library Ref" = 'PHOTODIODE',
+  "Voltage - DC Reverse (Vr) (Max)" = '32V',
+  "Wavelength" = '940nm'
+WHERE ("Part Number" = 'PD15-22C/TR8');
+

@@ -12,4 +12,5 @@
   <includeAll path="05-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="05-02-2023-data-fix" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="06-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="07-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
 </databaseChangeLog>
