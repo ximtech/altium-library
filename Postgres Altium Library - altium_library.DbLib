@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Password=postgres;Persist Security Info=True
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote="
 RightQuote="
 QuoteTableNames=1
@@ -19,25 +19,34 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=ALTIUM
-LastFocusedTable=VoltageRegulators-DC-DC-SwitchingRegulators
+LastFocusedTable=Amplifiers-Audio
 [Table1]
 SchemaName=
 TableName=Amplifiers-Audio
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=95|Description0=200|Footprint Ref 30=101|Footprint Path 30=107|Footprint Path 20=107|Library Path0=325|Footprint Ref 20=101|Library Ref0=131|Footprint Path0=466|Footprint Ref0=175|id0=33|Supplier Part Number 10=142|Supplier Part Number 20=142|Output Type0=103|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Device Package0=147|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=527|Features0=397|ComponentLink1URL0=930|Comment0=80|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Voltage - Supply0=108|Supplier 10=75|Supplier 20=75|Series0=53|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|ComponentLink2Description0=170|Device Package0=131|Manufacturer0=104|Packaging0=76|ComponentLink5Description0=170|Minimum Order0=104|Package / Case0=131|PartId0=53|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Mounting Type0=102|ComponentLink3Description0=170|Price0=47|ComponentLink3URL0=131|Max Output Power X Channels @ Load0=222
 [Table2]
 SchemaName=
 TableName=Amplifiers-OP-AmpsAndBufferAmps
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=117|Description0=200|Footprint Ref 30=101|Footprint Path 30=107|Footprint Path 20=107|Library Path0=387|Footprint Ref 20=101|Library Ref0=183|Footprint Path0=449|Footprint Ref0=150|id0=33|Supplier Part Number 10=162|Supplier Part Number 20=142|Output Type0=88|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Device Package0=147|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=578|ComponentLink1URL0=941|Comment0=80|Voltage - Input Offset0=136|Supplier 50=75|Supplier 60=75|-3db Bandwidth0=106|Supplier 30=75|Supplier 40=75|Slew Rate0=73|Supplier 10=75|Supplier 20=75|Number Of Circuits0=121|Series0=123|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|ComponentLink2Description0=170|Current - Input Bias0=123|Device Package0=218|Manufacturer0=122|Packaging0=76|ComponentLink5Description0=170|Gain Bandwidth Product0=149|Minimum Order0=104|Amplifier Type0=100|Package / Case0=218|PartId0=53|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Current - Supply0=110|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Mounting Type0=102|Voltage - Supply, Single/Dual (�)0=191|ComponentLink3Description0=170|Current - Output / Channel0=163|Price0=47|ComponentLink3URL0=131
 [Table3]
 SchemaName=
 TableName=Audio-AlarmsBuzzersAndSirens
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=105|Description0=203|Footprint Ref 30=101|Footprint Path 30=107|Footprint Path 20=107|Library Path0=270|Footprint Ref 20=101|Library Ref0=77|Footprint Path0=365|Footprint Ref0=158|id0=33|Voltage Range0=99|Height - Seated (Max)0=133|Supplier Part Number 10=142|Supplier Part Number 20=142|Termination0=85|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Part Number 30=142|Approval Agency0=109|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=497|Sound Pressure Level (Spl)0=156|ComponentLink1URL0=412|Comment0=80|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Supplier 10=75|Supplier 20=75|Frequency0=76|Series0=53|Input Type0=94|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|Ingress Protection0=116|ComponentLink2Description0=170|Device Package0=101|Manufacturer0=93|Packaging0=76|ComponentLink5Description0=170|Ratings0=62|Voltage - Rated0=103|Minimum Order0=104|Approvals0=74|Lifecycle Status0=100|LastUpdated0=133|Technology0=83|ComponentLink4URL0=131|Port Location0=91|Current - Supply0=107|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Operating Mode0=109|Size / Dimension0=213|Duration0=69|Mounting Type0=102|ComponentLink3Description0=170|Price0=47|Driver Circuitry0=156|ComponentLink3URL0=131
 [Table4]
 SchemaName=
 TableName=Audio-Microphones
@@ -56,9 +65,6 @@ TableName=BatteryChargers
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Charge Current - Max0=133|Part Number0=120|Description0=191|Supplier Part Number 10=148|Voltage - Supply (Max)0=138|Supplier Part Number 20=142|Battery Chemistry0=111|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Device Package0=147|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=657|ComponentLink1URL0=680|Comment0=80|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Interface0=68|Series0=98|Footprint Path 20=107|Fault Protection0=315|Library Path0=343|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|ComponentLink2Description0=170|Current - Charging0=139|Device Package0=298|Manufacturer0=184|Packaging0=76|ComponentLink5Description0=170|Minimum Order0=104|Footprint Ref 20=101|Programmable Features0=144|Library Ref0=124|Package / Case0=298|PartId0=53|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Number Of Cells0=107|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Battery Pack Voltage0=127|Mounting Type0=102|ComponentLink3Description0=170|Price0=47|Footprint Path0=480|Footprint Ref0=189|ComponentLink3URL0=131
 [Table7]
 SchemaName=
 TableName=BatteryHoldersClipsContacts
@@ -77,15 +83,15 @@ TableName=Capacitors-Aluminum-Electrolytic-SMT
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=210|Part Number0=136|Footprint Ref 30=101|Footprint Path 30=107|Footprint Path 20=107|Library Path0=343|Footprint Ref 20=101|Library Ref0=127|Footprint Path0=559|Footprint Ref0=179|id0=33|Value0=52|Ripple Current @ Low Frequency0=192|Height - Seated (Max)0=133|Surface Mount Land Size0=201|Supplier Part Number 10=188|Supplier Part Number 20=142|ComponentLink2Description0=170|Manufacturer0=185|Supplier Part Number 50=142|ComponentLink5Description0=170|Supplier Part Number 60=142|Supplier Part Number 30=142|Supplier Part Number 40=142|ComponentLink4URL0=131|ComponentLink1URL0=582|PartId0=53|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Tolerance0=73|Supplier 10=75|Supplier 20=75|Series0=105|ComponentLink5URL0=131|LastUpdated0=133|Part Status0=78|Capacitance0=85|Comment0=80|Device Package0=101|Type0=47|ComponentLink6Description0=170|Polarization0=84|Ratings0=62|Voltage - Rated0=103|Lead Spacing0=91|Minimum Order0=104|Lifetime @ Temp.0=111|Packaging0=76|Applications0=205|Package / Case0=100|ComponentLink1Description0=170|Price0=47|ComponentLink2URL0=593|Lifecycle Status0=100|ComponentLink6URL0=131|ComponentLink4Description0=170|Operating Temperature0=144|Size / Dimension0=108|Ripple Current @ High Frequency0=196|Mounting Type0=102|ComponentLink3Description0=170|Esr (Equivalent Series Resistance)0=191|Impedance0=79|ComponentLink3URL0=131
 [Table10]
 SchemaName=
 TableName=Capacitors-Aluminum-Electrolytic-TH
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Value0=52|Ripple Current @ Low Frequency0=192|Description0=191|Height - Seated (Max)0=133|Part Number0=103|Surface Mount Land Size0=150|Supplier Part Number 10=142|Supplier Part Number 20=142|ComponentLink2Description0=170|Manufacturer0=182|Supplier Part Number 50=142|ComponentLink5Description0=170|Supplier Part Number 60=142|Supplier Part Number 30=142|Supplier Part Number 40=142|ComponentLink4URL0=131|ComponentLink1URL0=584|PartId0=53|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Tolerance0=73|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=53|Footprint Path 20=107|ComponentLink5URL0=131|Library Path0=343|LastUpdated0=133|Part Status0=78|Capacitance0=85|Comment0=72|Device Package0=101|Type0=47|ComponentLink6Description0=170|Polarization0=84|Ratings0=62|Voltage - Rated0=103|Lead Spacing0=91|Minimum Order0=104|Footprint Ref 20=101|Lifetime @ Temp.0=111|Library Ref0=127|Packaging0=76|Applications0=93|Package / Case0=99|ComponentLink1Description0=170|Price0=47|ComponentLink2URL0=532|Lifecycle Status0=100|ComponentLink6URL0=131|ComponentLink4Description0=170|Operating Temperature0=144|Size / Dimension0=108|Ripple Current @ High Frequency0=196|Mounting Type0=102|ComponentLink3Description0=170|Esr (Equivalent Series Resistance)0=191|Impedance0=79|Footprint Path0=639|Footprint Ref0=259|ComponentLink3URL0=131
 [Table11]
 SchemaName=
 TableName=Capacitors-Aluminum-Polymer-SMT
@@ -152,27 +158,18 @@ TableName=Capacitors-Ceramic-2220
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Value0=52|Temperature Coefficient0=147|Description0=196|Height - Seated (Max)0=133|Part Number0=142|Supplier Part Number 10=175|Supplier Part Number 20=142|ComponentLink2Description0=170|Manufacturer0=134|Supplier Part Number 50=142|ComponentLink5Description0=170|Supplier Part Number 60=142|Supplier Part Number 30=142|Supplier Part Number 40=142|ComponentLink4URL0=131|Features0=215|ComponentLink1URL0=610|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Tolerance0=73|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=136|Footprint Path 20=107|ComponentLink5URL0=131|Library Path0=283|LastUpdated0=133|Part Status0=78|Capacitance0=85|Comment0=72|Device Package0=101|Type0=47|ComponentLink6Description0=170|Ratings0=111|Thickness (Max)0=103|Voltage - Rated0=103|Lead Spacing0=91|Minimum Order0=104|Footprint Ref 20=101|Library Ref0=77|Packaging0=76|Applications0=249|Lead Style0=74|Package / Case0=100|ComponentLink1Description0=170|Price0=47|ComponentLink2URL0=585|Failure Rate0=84|Lifecycle Status0=100|ComponentLink6URL0=131|ComponentLink4Description0=170|Operating Temperature0=144|Size / Dimension0=201|Mounting Type0=119|ComponentLink3Description0=170|Footprint Path0=443|Footprint Ref0=122|ComponentLink3URL0=131
 [Table22]
 SchemaName=
 TableName=Capacitors-Ceramic-RF
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Value0=54|Temperature Coefficient0=147|Description0=195|Height - Seated (Max)0=133|Part Number0=133|Supplier Part Number 10=188|Supplier Part Number 20=142|ComponentLink2Description0=170|Manufacturer0=172|Supplier Part Number 50=142|ComponentLink5Description0=170|Supplier Part Number 60=142|Supplier Part Number 30=142|Supplier Part Number 40=142|ComponentLink4URL0=131|Features0=173|ComponentLink1URL0=820|PartId0=53|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Tolerance0=73|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=96|Footprint Path 20=107|ComponentLink5URL0=131|Library Path0=283|LastUpdated0=133|Part Status0=78|Capacitance0=85|Comment0=80|Device Package0=101|Type0=47|ComponentLink6Description0=170|Ratings0=62|Thickness (Max)0=103|Voltage - Rated0=103|Lead Spacing0=91|Minimum Order0=104|Footprint Ref 20=101|Library Ref0=77|Packaging0=76|Applications0=275|Lead Style0=74|Package / Case0=100|ComponentLink1Description0=170|Price0=47|ComponentLink2URL0=577|Failure Rate0=84|Lifecycle Status0=100|ComponentLink6URL0=131|ComponentLink4Description0=170|Operating Temperature0=144|Size / Dimension0=201|Mounting Type0=151|ComponentLink3Description0=170|Footprint Path0=421|Footprint Ref0=100|ComponentLink3URL0=131
 [Table23]
 SchemaName=
 TableName=Capacitors-Film
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Height - Seated (Max)0=133|Part Number0=109|Description0=194|Supplier Part Number 10=158|Supplier Part Number 20=142|Termination0=85|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=585|Features0=101|ComponentLink1URL0=575|Comment0=72|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Tolerance0=73|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Voltage Rating - Dc0=123|Footprint Path 30=107|Series0=83|Footprint Path 20=107|Library Path0=283|ComponentLink6Description0=170|Part Status0=78|Type0=47|Capacitance0=85|ComponentLink5URL0=131|ComponentLink2Description0=170|Device Package0=101|Manufacturer0=182|Packaging0=76|Dielectric Material0=330|ComponentLink5Description0=170|Ratings0=62|Lead Spacing0=91|Minimum Order0=104|Voltage Rating - Ac0=122|Footprint Ref 20=101|Library Ref0=77|Applications0=246|Package / Case0=100|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Operating Temperature0=144|ComponentLink4Description0=170|Value0=54|Size / Dimension0=201|Mounting Type0=102|Esr (Equivalent Series Resistance)0=191|ComponentLink3Description0=170|Price0=47|Footprint Path0=419|Footprint Ref0=111|ComponentLink3URL0=131
 [Table24]
 SchemaName=
 TableName=Capacitors-Tantalum
@@ -683,9 +680,6 @@ TableName=Resistors-SurfaceMount-0603
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Temperature Coefficient0=147|Height - Seated (Max)0=133|Part Number0=103|Description0=177|Supplier Part Number 10=142|Supplier Part Number 20=142|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Device Package0=147|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=513|Features0=301|ComponentLink1URL0=323|Comment0=72|Supplier 50=75|Supplier 60=75|Supplier 30=75|Composition0=89|Supplier 40=75|Tolerance0=73|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=53|Footprint Path 20=107|Library Path0=274|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|ComponentLink2Description0=170|Device Package0=101|Manufacturer0=144|Packaging0=76|ComponentLink5Description0=170|Ratings0=62|Minimum Order0=104|Footprint Ref 20=101|Library Ref0=77|Package / Case0=100|PartId0=53|Failure Rate0=84|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Operating Temperature0=144|ComponentLink4Description0=170|Number Of Terminations0=150|Value0=68|Size / Dimension0=201|Power (Watts)0=94|ComponentLink3Description0=170|Price0=47|Footprint Path0=377|Footprint Ref0=92|ComponentLink3URL0=131|Resistance0=77
 [Table109]
 SchemaName=
 TableName=Resistors-SurfaceMount-0805
@@ -776,9 +770,6 @@ TableName=Sensors-Temperature-AnalogAndDigital
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Part Number0=103|Description0=198|Supplier Part Number 10=158|Supplier Part Number 20=142|Output Type0=88|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Device Package0=147|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=582|Features0=246|ComponentLink1URL0=664|Comment0=80|Accuracy - Highest (Lowest)0=162|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Voltage - Supply0=108|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=123|Footprint Path 20=107|Library Path0=507|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|ComponentLink2Description0=170|Device Package0=218|Manufacturer0=122|Packaging0=76|ComponentLink5Description0=170|Sensing Temperature - Remote0=181|Sensing Temperature - Local0=168|Minimum Order0=104|Footprint Ref 20=101|Library Ref0=142|Package / Case0=218|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Test Condition0=156|Sensor Type0=87|Mounting Type0=102|Resolution0=79|ComponentLink3Description0=170|Price0=47|Footprint Path0=445|Footprint Ref0=154|ComponentLink3URL0=131
 [Table124]
 SchemaName=
 TableName=Sensors-Temperature-RTD
@@ -839,9 +830,6 @@ TableName=Switches-Tactile
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Part Number0=140|Description0=194|Supplier Part Number 10=142|Switch Function0=106|Supplier Part Number 20=142|Actuator Length, Right Angle0=173|Illumination Voltage (Nominal)0=180|Contact Rating @ Voltage0=157|Supplier Part Number 50=142|Outline0=109|Supplier Part Number 60=142|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|ComponentLink2URL0=580|Features0=93|ComponentLink1URL0=909|Actuator Height Off Pcb, Vertical0=190|Comment0=80|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=57|Footprint Path 20=107|Library Path0=328|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|Ingress Protection0=159|ComponentLink2Description0=170|Device Package0=101|Manufacturer0=206|Packaging0=76|ComponentLink5Description0=170|Minimum Order0=104|Footprint Ref 20=101|Library Ref0=124|Actuator Orientation0=130|Actuator Type0=108|Illumination Type, Color0=146|Illumination0=92|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Operating Force0=107|Termination Style0=112|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Circuit0=56|Mounting Type0=151|ComponentLink3Description0=170|Price0=47|Footprint Path0=399|Footprint Ref0=175|ComponentLink3URL0=131
 [Table134]
 SchemaName=
 TableName=Transistors-Bipolar-BJT-RF
@@ -878,9 +866,6 @@ TableName=VoltageRegulators-DC-DC-SwitchingRegulators
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Voltage - Output (Min/Fixed)0=171|Part Number0=132|Current - Output0=110|Description0=204|Supplier Part Number 10=165|Supplier Part Number 20=142|Output Type0=88|Output Configuration0=205|Frequency - Switching0=137|Supplier Part Number 50=142|Supplier Part Number 60=142|Supplier Device Package0=147|Supplier Part Number 30=142|ComponentLink1Description0=170|Supplier Part Number 40=142|ComponentLink6URL0=131|Function0=224|ComponentLink2URL0=702|ComponentLink1URL0=945|Comment0=80|Synchronous Rectifier0=135|Supplier 50=75|Supplier 60=75|Supplier 30=75|Supplier 40=75|Footprint Ref 30=101|Supplier 10=75|Supplier 20=75|Footprint Path 30=107|Series0=123|Footprint Path 20=107|Library Path0=558|ComponentLink6Description0=170|Part Status0=78|Type0=47|ComponentLink5URL0=131|ComponentLink2Description0=170|Device Package0=298|Manufacturer0=201|Packaging0=76|ComponentLink5Description0=170|Voltage - Input (Min)0=130|Minimum Order0=104|Footprint Ref 20=101|Voltage - Output (Max)0=141|Library Ref0=202|Number Of Outputs0=126|Package / Case0=298|Lifecycle Status0=100|LastUpdated0=133|ComponentLink4URL0=131|Operating Temperature0=144|ComponentLink4Description0=170|Value0=52|Topology0=247|Mounting Type0=102|ComponentLink3Description0=170|Price0=47|Voltage - Input (Max)0=131|Footprint Path0=478|Footprint Ref0=218|ComponentLink3URL0=131
 [Table140]
 SchemaName=
 TableName=VoltageRegulators-Linear
@@ -893,18 +878,12 @@ TableName=databasechangelog
 Enabled=False
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|author0=112|filename0=359|dateexecuted0=107|orderexecuted0=97|exectype0=67|md5sum0=216|description0=81|comments0=75|tag0=40|liquibase0=70|contexts0=66|labels0=53|deployment_id0=99
 [Table142]
 SchemaName=
 TableName=databasechangeloglock
 Enabled=False
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|locked0=57|lockgranted0=85|lockedby0=69
 [FieldMap1]
 Options=FieldName=Amplifiers-Audio.Part Number|TableNameOnly=Amplifiers-Audio|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
