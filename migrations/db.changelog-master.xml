@@ -41,4 +41,5 @@
   <includeAll path="07-04-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="08-04-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="09-04-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="10-04-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
 </databaseChangeLog>
