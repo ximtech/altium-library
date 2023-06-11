@@ -97,4 +97,5 @@
   <includeAll path="08-06-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="09-06-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="10-06-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="11-06-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
 </databaseChangeLog>
