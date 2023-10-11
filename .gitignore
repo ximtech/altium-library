@@ -15,3 +15,4 @@ STEP/*/*.sldprt
 *.Zip
 *_loc
 altiumlibrary.com.DbLib
+/.idea/*
