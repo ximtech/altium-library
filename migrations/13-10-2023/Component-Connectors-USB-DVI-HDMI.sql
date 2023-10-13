@@ -69,7 +69,7 @@ VALUES (
   'Receptacle', 
   '1', 
   'Video File', 
-  'USB 3.0 TYPE C', 
+  'USB 3.0 TYPE C 6PIN',
   NULL, 
   NULL, 
   'Active', 
