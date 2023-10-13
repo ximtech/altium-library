@@ -119,7 +119,7 @@ VALUES (
   'Horizontal', 
   'USB4125', 
   NULL, 
-  'symbols/Connectors/SCH - CONNECTORS - USB 3.0 TYPE C.SCHLIB', 
+  'symbols/Connectors/SCH - CONNECTORS - USB 3.0 TYPE C 6PIN.SCHLIB',
   'Active', 
   'Environmental Information'
 );
