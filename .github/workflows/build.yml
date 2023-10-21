@@ -25,3 +25,4 @@ jobs:
           --spring.datasource.url=${{ secrets.ALTIUM_DB_DATASOURCE }}
           --spring.datasource.username=${{ secrets.ALTIUM_DB_USERNAME }}
           --spring.datasource.password=${{ secrets.ALTIUM_DB_PASSWORD }}
+          -e LIQUIBASE_LIQUIBASE_SCHEMA_NAME=components
