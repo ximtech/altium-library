@@ -21,7 +21,7 @@ jobs:
     - name: Run docker container
       run: >
           docker run -p 5432:5432
-          --spring.profiles.active=prod
+          -e PROFILE=prod
           -e ALTIUM_DB_DATASOURCE=${{ secrets.ALTIUM_DB_DATASOURCE }}
           -e ALTIUM_DB_USERNAME=${{ secrets.ALTIUM_DB_USERNAME }}
           -e ALTIUM_DB_PASSWORD=${{ secrets.ALTIUM_DB_PASSWORD }}
