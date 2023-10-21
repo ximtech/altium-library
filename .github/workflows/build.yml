@@ -20,9 +20,10 @@ jobs:
 
     - name: Run docker container
       run: >
-          docker run ${{ secrets.DOCKERHUB_USERNAME }}/altium-migrator:latest -p 5432:5432
+          docker run -p 5432:5432
           --spring.profiles.active=prod
-          --spring.datasource.url=${{ secrets.ALTIUM_DB_DATASOURCE }}
-          --spring.datasource.username=${{ secrets.ALTIUM_DB_USERNAME }}
-          --spring.datasource.password=${{ secrets.ALTIUM_DB_PASSWORD }}
+          -e ALTIUM_DB_DATASOURCE=${{ secrets.ALTIUM_DB_DATASOURCE }}
+          -e ALTIUM_DB_USERNAME=${{ secrets.ALTIUM_DB_USERNAME }}
+          -e ALTIUM_DB_PASSWORD=${{ secrets.ALTIUM_DB_PASSWORD }}
           -e LIQUIBASE_LIQUIBASE_SCHEMA_NAME=components
+          ${{ secrets.DOCKERHUB_USERNAME }}/altium-migrator:latest
