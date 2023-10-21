@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+  <includeAll path="initial-db-scripts" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="07-01-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="25-01-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="26-01-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
@@ -15,8 +16,7 @@
   <includeAll path="08-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="09-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="10-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
-  <includeAll path="11-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
-  <includeAll path="13-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="11-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>  <includeAll path="13-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="14-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="18-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="19-02-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
@@ -126,7 +126,6 @@
   <includeAll path="14-09-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="18-09-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="13-10-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
-  <includeAll path="21-10-2023-data-fix" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="dev-scripts" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="19-10-2023" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
 </databaseChangeLog>
