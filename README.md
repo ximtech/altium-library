@@ -74,6 +74,8 @@ Independent development is the main goal of creating this project
 1. Open `Altium designer` -> `Components` -> `File-based Libraries Preferences` -> `Install`
 2. Go to `altium-library` folder then choose:
     - ![<img width="20" height="20"/>](assets/link_10.png)
+3. Additionally, set connection settings by pressing `Advanced...` button
+    - ![<img width="20" height="20"/>](assets/altium_db_settings.png)
 
 ## For already existing database
 1. Skip first tip at `Offline development configuration` manual
