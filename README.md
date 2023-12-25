@@ -3,7 +3,7 @@
 [![build](https://github.com/ximtech/altium-library/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/ximtech/altium-library/actions/workflows/build.yml)
 
 This library is a copy of excellent [Celestial Altium Library](https://github.com/issus/altium-library).
-Independent development is the main goal of creating this project
+The primary objective in undertaking this project is independent development.
 
 ### Advantages
 - One full library with standardized components
@@ -19,10 +19,10 @@ Independent development is the main goal of creating this project
 
 1. Library has been updated in two ways:
     - ***Manually:*** by admin and developers.
-    - ***Automatically:*** by `ghost-crawler` integrates with different platforms, compares actual database 
+    - ***Automatically:*** by `ghost-crawler`, which integrates with different platforms, compares actual database 
       and creates pull requests when new data has been arrived.
-2. All database changes stored in `migration` folder as `SQL` scripts. This is a historical data for DB version control
-3. After all push in `main` branch CI/CD pipeline run [altium-migrator](https://github.com/ximtech/altium-migrator) and updates DB
+2. All database changes are stored in `migration` folder as `SQL` scripts. This serves as historical data for DB version control
+3. After all pushes to the `main` branch, the CI/CD pipeline runs the [altium-migrator](https://github.com/ximtech/altium-migrator) updating the database
 
 ### How to use it
 
