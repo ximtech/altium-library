@@ -9,7 +9,7 @@ INSERT INTO "altium"."Inductors-Power" (
   "Height - Seated (Max)",
   "Current Rating (Amps)",
   "Device Package",
-  "Dc Resistance (Dcr)",
+  "DC Resistance (DCR)",
   "Supplier Device Package",
   "Inductance",
   "Package / Case",

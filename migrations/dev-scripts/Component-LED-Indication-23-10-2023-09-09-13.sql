@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset Stanislav_Vodolagin:1
 
-INSERT INTO "altium"."LED-Indication" (
+INSERT INTO "LED-Indication" (
   "ComponentLink4URL",
   "Wavelength - Dominant",
   "Configuration",

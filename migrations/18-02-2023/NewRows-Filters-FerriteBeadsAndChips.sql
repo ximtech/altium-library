@@ -19,7 +19,7 @@ INSERT INTO "Filters-FerriteBeadsAndChips" (
   "Comment",
   "Operating Temperature",
   "Footprint Ref",
-  "Dc Resistance (Dcr) (Max)",
+  "DC Resistance (DCR) (Max)",
   "Supplier 1",
   "Mounting Type",
   "Size / Dimension",

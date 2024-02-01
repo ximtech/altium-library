@@ -8,7 +8,7 @@ INSERT INTO "Inductors-Power" (
   "Height - Seated (Max)",
   "Current Rating (Amps)",
   "Device Package",
-  "Dc Resistance (Dcr)",
+  "DC Resistance (DCR)",
   "Inductance",
   "Package / Case",
   "Library Ref",

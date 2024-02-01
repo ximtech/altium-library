@@ -29,7 +29,7 @@ INSERT INTO "Diodes-Rectifiers-Single" (
   "Voltage - Forward (Vf) (Max) @ If",
   "Packaging",
   "Part Status",
-  "Voltage - Dc Reverse (Vr) (Max)",
+  "Voltage - DC Reverse (Vr) (Max)",
   "ComponentLink2Description",
   "Footprint Path"
 )
@@ -95,7 +95,7 @@ INSERT INTO "Diodes-Rectifiers-Single" (
   "Voltage - Forward (Vf) (Max) @ If",
   "Packaging",
   "Part Status",
-  "Voltage - Dc Reverse (Vr) (Max)",
+  "Voltage - DC Reverse (Vr) (Max)",
   "ComponentLink2Description",
   "Footprint Path"
 )
