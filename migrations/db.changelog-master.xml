@@ -171,4 +171,5 @@
   <includeAll path="17-07-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="21-07-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="24-07-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="28-07-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
 </databaseChangeLog>
