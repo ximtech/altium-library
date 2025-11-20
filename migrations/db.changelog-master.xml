@@ -180,4 +180,10 @@
   <includeAll path="28-08-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="01-09-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
   <includeAll path="06-10-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="03-11-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="06-11-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="10-11-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="13-11-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="17-11-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
+  <includeAll path="20-11-2025" errorIfMissingOrEmpty="true" relativeToChangelogFile="true"/>
 </databaseChangeLog>
