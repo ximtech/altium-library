@@ -10,7 +10,7 @@ INSERT INTO "altium"."Relays-SolidState" (
   "Supplier Device Package",
   "Package / Case",
   "Library Ref",
-  "On-State Resistance (Max)",
+  "On-state Resistance (Max)",
   "Supplier Part Number 1",
   "Lifecycle Status",
   "Manufacturer",
