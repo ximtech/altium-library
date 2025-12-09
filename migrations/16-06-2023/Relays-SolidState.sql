@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS "Relays-SolidState" (
   "Supplier 3" varchar(255) NULL,
   "Output Type" varchar(126) NULL,
   "ComponentLink3URL" varchar(255) NULL,
-  "On-state Resistance (Max)" varchar(126) NULL,
+  "On-State Resistance (Max)" varchar(126) NULL,
   "ComponentLink1Description" varchar(126) NULL,
   "ComponentLink4Description" varchar(255) NULL,
   "Supplier 4" varchar(255) NULL,
