@@ -83,7 +83,7 @@ INSERT INTO "Relays-SolidState" (
   "Part Number",
   "Minimum Order",
   "Mounting Type",
-  "On-state Resistance (Max)",
+  "On-State Resistance (Max)",
   "Output Type",
   "Package / Case",
   "Packaging",
