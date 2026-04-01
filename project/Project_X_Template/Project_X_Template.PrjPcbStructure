@@ -1,1 +1,2 @@
-Record=TopLevelDocument|FileName=A3.SchDot
+Record=TopLevelDocument|FileName=A3.SchDot|SheetNumber=000
+Record=NoMainPathDocument|SourceDocument=A3.SchDot|FileName=A4.SchDot|SheetNumber=000
