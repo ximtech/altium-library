@@ -59,9 +59,9 @@ CREATE TABLE IF NOT EXISTS "altium"."Protection-SurgeSuppression-ICs" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "040f373f-86b1-43a8-89d2-caf0f5ce2510" ON "Protection-SurgeSuppression-ICs"("Mounting Type");
+CREATE INDEX "7541c5cd-3248-4fd8-b86b-2fbad43c948a" ON "Protection-SurgeSuppression-ICs"("Mounting Type");
 
-CREATE INDEX "c3abfc83-85de-4e61-a30c-26a43647bc6a" ON "Protection-SurgeSuppression-ICs"("Value");
+CREATE INDEX "61a4707f-7ee2-4030-bbe3-dde4c0065e4c" ON "Protection-SurgeSuppression-ICs"("Value");
 
 INSERT INTO "altium"."Protection-SurgeSuppression-ICs" (
   "Applications",

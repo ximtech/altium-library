@@ -59,9 +59,9 @@ CREATE TABLE IF NOT EXISTS "altium"."Amplifiers-SpecialPurpose" (
   PRIMARY KEY ("id")
 );
 
-CREATE INDEX "826d9c90-ce66-4527-bbf4-df10032314e7" ON "Amplifiers-SpecialPurpose"("Mounting Type");
+CREATE INDEX "2fd42522-ba8c-4143-acb3-31f2dd68abd2" ON "Amplifiers-SpecialPurpose"("Mounting Type");
 
-CREATE INDEX "9cd2067e-22ad-4a51-b0f1-a4beb232e02f" ON "Amplifiers-SpecialPurpose"("Value");
+CREATE INDEX "f65f17ae-df8f-48ab-82dd-9b8746a05300" ON "Amplifiers-SpecialPurpose"("Value");
 
 INSERT INTO "altium"."Amplifiers-SpecialPurpose" (
   "Applications",
